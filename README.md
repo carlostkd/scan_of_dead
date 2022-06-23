@@ -1,4 +1,4 @@
-## scan_of_dead
+# scan_of_dead
 
-# Fast scan fast dead
+## Fast scan fast dead
 
