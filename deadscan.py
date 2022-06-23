@@ -131,5 +131,5 @@ if __name__ == '__main__':
     try:
         main()
     except KeyboardInterrupt:
-        print("\nbye!")
+        print("\nsee you on next live, bye!")
         quit()
