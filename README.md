@@ -1,10 +1,8 @@
 # scan_of_dead
 
-## Fast scan fast dead
+## Fast port scan.
 
-Installation via pip 
 
-`soon` 
 
 
 
