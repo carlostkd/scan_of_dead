@@ -29,12 +29,12 @@ def main():
     print("                         @carlostkd               ")
     print("-" * 60)
     time.sleep(1)
-    target = input("Enter your target IP address / URL : ")
+    target = input("Enter your target IP  / URL : ")
     error = ("Invalid Input")
     try:
         t_ip = socket.gethostbyname(target)
     except (UnboundLocalError, socket.gaierror):
-        print("\n[-]Invalid format. Please use a correct IP or web address[-]\n")
+        print("\n[-]Invalid format. Please use a correct IP/Url[-]\n")
         sys.exit()
     #Banner
     print("-" * 60)
@@ -94,7 +94,7 @@ def main():
     def automate():
        choice = '0'
        while choice =='0':
-          print("Would you like to run Nmap or quit to terminal?")
+          print("Would you like to run Nmap or quit?")
           print("-" * 60)
           print("1 = Run suggested Nmap scan")
           print("2 = Run another dead scan")
